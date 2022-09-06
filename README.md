@@ -2,4 +2,4 @@
 
 Результат вы можете посмотреть тут
 
-[Мой первый проект в HTML & CSS] (https://tanniria.github.io/resume/)
+[Мой первый проект в HTML & CSS](https://tanniria.github.io/resume/)
