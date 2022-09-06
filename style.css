@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+
+.inf, .hobby, .work, .communication {
+    margin-bottom: 15px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 2px;
+    background: #fff;
+}
+.container h1 {
+    letter-spacing: 4px;
+}
+.img {
+    box-shadow: 4px 4px 14px;
+    border-radius: 25%;
+}
+
+.inf {
+    display: flex;
+}
+
+.inf h1 {
+    margin-left: 30px;
+}
+
+@media (max-width: 730px) {
+    .inf {
+        display: block;
+        text-align: center;
+    }
+}
+
+.inf-text {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.social {
+    letter-spacing: 4px;
+    margin-left: 30px;
+}
+
+
+.hobby h2 {
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.hobby {
+    border: 2px solid #E6E6FA;
+    background: #E6E6FA;
+    border-radius: 15px;
+    border-left: 10px solid #5757d4;
+}
+
+.work h2 {
+    letter-spacing: 4px;
+    text-align: center;
+}
+.work {
+    border: 2px solid #FFF0F5;
+    background: #FFF0F5;
+    border-radius: 15px;
+    border-left: 10px solid #f8c6d7;
+}
+.communication h3 {
+    letter-spacing: 4px;
+}
+.communication {
+    border: 2px solid #FFFAF0;
+    background: #FFFAF0;
+    border-radius: 15px;
+    border-left: 10px solid #fdecc9;
+}
+
+.table {
+    width: 100%;
+}
+.table td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.table td {
+    border-top: 1px solid #fff;
+}
+.table td:hover {
+    background: #f7d8f7;
+    border-radius: 15px;
+    padding: 1px;
+}
+.table td:nth-child(2) {
+    color: #aa9999;
+}
+
+.list li{
+    margin-bottom: 5px;
+}
+
+.form h3 {
+    text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    background: #fff;
+}
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+@media (max-width: 730px) {
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+#message {
+   background: #FFF;
+   border-radius: 5px;
+}
+#name {
+    background: #fff;
+    border-radius: 5px;
+}
+#email {
+    background: #fff;
+    border-radius: 5px;
+}
+a {
+    color: #696969;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    color: #000;
+    font-family: inherit;
+    font-size: 17px;
+}
+a:visited {
+    color: #BC8F8F;
+}
+a:active {
+    color: #CD5C5C;
+}
+.btn {
+    background: #FFF;
+    color: #A9A9A9;
+    font-size: 15px;
+    padding: 3px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover {
+    opacity: .8;
+    color: #000;
+    font-family: inherit;
+    background: #FFF;
+    font-size: 17px;
+}
+.btn:active {
+    color: #CD5C5C;
+}
